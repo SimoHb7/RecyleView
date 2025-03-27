@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/app_bar_search"
+        android:title="Rechercher"
+        android:icon="@mipmap/loupe"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/action_share_message"
+        android:title="Partager via Messagerie"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share_bluetooth"
+        android:title="Partager via Bluetooth"
+        app:showAsAction="never" />
+</menu>
